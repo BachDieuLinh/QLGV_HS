@@ -1,1 +1,0 @@
-c:\users\administrator\documents\visual studio 2012\Projects\QLyHocSinhGiaoVien\HocSinh\bin\Debug\HocSinh.exe.config
