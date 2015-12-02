@@ -1,1 +1,2 @@
 c:\users\administrator\documents\visual studio 2012\Projects\QLyHocSinhGiaoVien\HocSinh\bin\Debug\HocSinh.exe.config
+D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QLyHocSinhGiaoVien\HocSinh\bin\Debug\HocSinh.exe.config
