@@ -1,6 +1,6 @@
 ﻿namespace QUANLY_HSSV
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -79,12 +79,14 @@
             this.giáoViênToolStripMenuItem.Name = "giáoViênToolStripMenuItem";
             this.giáoViênToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.giáoViênToolStripMenuItem.Text = "Giáo viên";
+            this.giáoViênToolStripMenuItem.Click += new System.EventHandler(this.giáoViênToolStripMenuItem_Click);
             // 
             // họcSinhToolStripMenuItem
             // 
             this.họcSinhToolStripMenuItem.Name = "họcSinhToolStripMenuItem";
             this.họcSinhToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.họcSinhToolStripMenuItem.Text = "Học sinh";
+            this.họcSinhToolStripMenuItem.Click += new System.EventHandler(this.họcSinhToolStripMenuItem_Click);
             // 
             // lớpToolStripMenuItem
             // 
@@ -103,7 +105,7 @@
             this.bToolStripMenuItem1,
             this.cToolStripMenuItem1});
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.aToolStripMenuItem.Text = "LỚP 10";
             // 
             // aToolStripMenuItem1
@@ -133,7 +135,7 @@
             this.dToolStripMenuItem,
             this.eToolStripMenuItem});
             this.bToolStripMenuItem.Name = "bToolStripMenuItem";
-            this.bToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.bToolStripMenuItem.Text = "LỚP 11";
             // 
             // aToolStripMenuItem2
@@ -174,7 +176,7 @@
             this.cToolStripMenuItem3,
             this.dToolStripMenuItem1});
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.cToolStripMenuItem.Text = "LỚP 12";
             // 
             // aToolStripMenuItem3
@@ -214,15 +216,15 @@
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Main";
+            this.Text = "Main";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

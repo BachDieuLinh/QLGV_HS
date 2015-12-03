@@ -46,7 +46,6 @@
             this.txtTenlop = new System.Windows.Forms.TextBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.txtMalop = new System.Windows.Forms.TextBox();
-            this.btnSua = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
@@ -123,7 +122,7 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(12, 201);
+            this.btnHuy.Location = new System.Drawing.Point(12, 191);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(75, 23);
             this.btnHuy.TabIndex = 101;
@@ -227,19 +226,9 @@
             this.txtMalop.Size = new System.Drawing.Size(155, 20);
             this.txtMalop.TabIndex = 88;
             // 
-            // btnSua
-            // 
-            this.btnSua.Location = new System.Drawing.Point(12, 96);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
-            this.btnSua.TabIndex = 87;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(12, 164);
+            this.btnLuu.Location = new System.Drawing.Point(13, 156);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 23);
             this.btnLuu.TabIndex = 86;
@@ -249,13 +238,13 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(12, 130);
+            this.btnXoa.Location = new System.Drawing.Point(13, 120);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 23);
             this.btnXoa.TabIndex = 85;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnSua_Click);
+             
             // 
             // btnThem
             // 
@@ -418,7 +407,7 @@
             // 
             // btnThemHS
             // 
-            this.btnThemHS.Location = new System.Drawing.Point(13, 66);
+            this.btnThemHS.Location = new System.Drawing.Point(13, 76);
             this.btnThemHS.Name = "btnThemHS";
             this.btnThemHS.Size = new System.Drawing.Size(75, 23);
             this.btnThemHS.TabIndex = 112;
@@ -456,7 +445,6 @@
             this.Controls.Add(this.txtTenlop);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.txtMalop);
-            this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
@@ -493,7 +481,6 @@
         private System.Windows.Forms.TextBox txtTenlop;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.TextBox txtMalop;
-        private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThem;
