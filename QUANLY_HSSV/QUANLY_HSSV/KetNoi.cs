@@ -13,7 +13,7 @@ namespace QUANLY_HSSV
         SqlConnection kn = new SqlConnection();
         static public String connect()
         {
-            return @"Data Source=VAIO;Initial Catalog=QLY_GV_HS;Integrated Security=True";
+            return @"Data Source=HOME;Initial Catalog=QLY_GV_HS;Integrated Security=True";
         }    
     }
 }

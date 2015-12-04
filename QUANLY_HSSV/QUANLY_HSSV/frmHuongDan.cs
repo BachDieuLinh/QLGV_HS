@@ -44,6 +44,7 @@ namespace QUANLY_HSSV
             {
                 str = Application.StartupPath + "\\Huong Dan\\Form Thong Tin Giang Day.mht";
                 webBrowser1.Navigate(str);
+            }
         }
     }
 }
