@@ -8,3 +8,6 @@ C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.exe
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.pdb
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.csprojResolveAssemblyReference.cache
+D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\bin\Debug\QUANLY_HSSV.exe.config
+D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.exe
+D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.pdb

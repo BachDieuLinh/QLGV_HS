@@ -22,5 +22,13 @@ namespace QUANLY_HSSV
             Thongtingiangday TTGD = new Thongtingiangday();
             TTGD.Show();
         }
+
+        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
     }
 }

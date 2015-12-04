@@ -103,7 +103,7 @@
             this.bToolStripMenuItem1,
             this.cToolStripMenuItem1});
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.aToolStripMenuItem.Text = "LỚP 10";
             // 
             // aToolStripMenuItem1
@@ -133,7 +133,7 @@
             this.dToolStripMenuItem,
             this.eToolStripMenuItem});
             this.bToolStripMenuItem.Name = "bToolStripMenuItem";
-            this.bToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.bToolStripMenuItem.Text = "LỚP 11";
             // 
             // aToolStripMenuItem2
@@ -174,7 +174,7 @@
             this.cToolStripMenuItem3,
             this.dToolStripMenuItem1});
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.cToolStripMenuItem.Text = "LỚP 12";
             // 
             // aToolStripMenuItem3
@@ -213,6 +213,7 @@
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
+            this.trợGiúpToolStripMenuItem.Click += new System.EventHandler(this.trợGiúpToolStripMenuItem_Click);
             // 
             // Form1
             // 
