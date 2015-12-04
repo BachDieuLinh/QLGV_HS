@@ -44,18 +44,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangNhap.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="frmHuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmHuongDan.Designer.cs">
       <DependentUpon>frmHuongDan.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGIAOVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGIAOVIEN.Designer.cs">
+      <DependentUpon>frmGIAOVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHOCSINH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHOCSINH.Designer.cs">
+      <DependentUpon>frmHOCSINH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaoVien.cs" />
+    <Compile Include="Hocsinh.cs" />
+>>>>>>> 770dd0398960888b024e1e1043f419eea81c97d7
     <Compile Include="KetNoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,12 +89,24 @@
     <Compile Include="Thongtingiangday.Designer.cs">
       <DependentUpon>Thongtingiangday.cs</DependentUpon>
     </Compile>
+    <Compile Include="TimKiem.cs" />
     <Compile Include="ttgiangday.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="frmHuongDan.resx">
       <DependentUpon>frmHuongDan.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGIAOVIEN.resx">
+      <DependentUpon>frmGIAOVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHOCSINH.resx">
+      <DependentUpon>frmHOCSINH.cs</DependentUpon>
+>>>>>>> 770dd0398960888b024e1e1043f419eea81c97d7
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

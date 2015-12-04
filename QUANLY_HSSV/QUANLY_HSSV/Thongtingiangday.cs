@@ -25,13 +25,13 @@ namespace QUANLY_HSSV
         void KhoaDieuKhien()
         {
             txtMalop.Enabled = txtTenlop.Enabled = txtMaHS.Enabled = txtTenHS.Enabled = dtp_NS.Enabled = cb_GT.Enabled = txtDiaChi.Enabled = txtMaGV.Enabled = txtTenGV.Enabled = false;
-            btnThem.Enabled = btnSua.Enabled = btnXoa.Enabled = true;
+            btnThem.Enabled =  btnXoa.Enabled = true;
             btnLuu.Enabled = false;
         }
         void MoDieuKhien()
         {
             txtMalop.Enabled = txtTenlop.Enabled = txtMaHS.Enabled = txtTenHS.Enabled = dtp_NS.Enabled = cb_GT.Enabled = txtDiaChi.Enabled = txtMaGV.Enabled = txtTenGV.Enabled = true;
-            btnThem.Enabled = btnSua.Enabled = btnXoa.Enabled = false;
+            btnThem.Enabled =  btnXoa.Enabled = false;
             btnLuu.Enabled = true;
         }
         void SetNull()
@@ -53,7 +53,7 @@ namespace QUANLY_HSSV
 
         private void dgvTTGD_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            btnSua.Enabled = true;
+            
             btnXoa.Enabled = true;
             try
             {
@@ -70,7 +70,7 @@ namespace QUANLY_HSSV
 
         private void dgvHS_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            btnSua.Enabled = true;
+             
             btnXoa.Enabled = true;
             try
             {
@@ -86,7 +86,7 @@ namespace QUANLY_HSSV
 
         private void dgvLOP_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            btnSua.Enabled = true;
+             
             btnXoa.Enabled = true;
             try
             {
@@ -101,7 +101,7 @@ namespace QUANLY_HSSV
 
         private void dgvGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            btnSua.Enabled = true;
+             
             btnXoa.Enabled = true;
             try
             {
@@ -134,15 +134,11 @@ namespace QUANLY_HSSV
             txtTenlop.Enabled = false;
             txtMaGV.Enabled = false;
             txtTenGV.Enabled = false;
+            txtMaHS.Enabled = false;
             SetNull();
             chon = 2;
         }
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            MoDieuKhien();
-            txtMaHS.Enabled = false;
-            chon = 2; ;
-        }
+         
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
@@ -205,21 +201,7 @@ namespace QUANLY_HSSV
                         dgvHS.DataSource = dt;
                     }
             }
-            else if (chon == 3)
-            {
-                if (txtMalop.Text == "" || txtMaGV.Text == "")
-                    MessageBox.Show("Mời nhập đầy đủ thông tin!");
-                else
-                    if (DialogResult.Yes == MessageBox.Show("Bạn có muốn Sửa giáo viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
-                    {
-                        TTGD.SuaGV(txtMalop.Text, txtMaGV.Text);
-                        MessageBox.Show("Sửa thành công!");
-                        SetNull();
-                        DataTable dt = new DataTable();
-                        dt = TTGD.HienThiTTGD(txtMalop.Text);
-                        dgvTTGD.DataSource = dt;
-                    }
-            }
+             
         }
 
         private void btnHuy_Click_1(object sender, EventArgs e)

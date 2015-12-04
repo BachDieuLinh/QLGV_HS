@@ -1,5 +1,4 @@
 c:\users\huyen de\documents\visual studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\bin\Debug\QUANLY_HSSV.exe.config
-C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.Form1.resources
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.Properties.Resources.resources
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.Thongtingiangday.resources
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.csproj.GenerateResource.Cache
@@ -7,7 +6,14 @@ C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\bin\Debug\QUANLY_HSSV.pdb
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.exe
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.pdb
+<<<<<<< HEAD
 C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.csprojResolveAssemblyReference.cache
 D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\bin\Debug\QUANLY_HSSV.exe.config
 D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.exe
 D:\Study Kỳ 1 năm 4\Github\QLGV_HS\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.pdb
+=======
+C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.Main.resources
+C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.frmDangNhap.resources
+C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.frmHOCSINH.resources
+C:\Users\huyen de\Documents\Visual Studio 2012\Projects\QUANLY_HSSV\QUANLY_HSSV\obj\Debug\QUANLY_HSSV.frmGIAOVIEN.resources
+>>>>>>> 770dd0398960888b024e1e1043f419eea81c97d7
